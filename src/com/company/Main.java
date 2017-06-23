@@ -45,8 +45,22 @@ public class Main {
 //        MinFac minFac = new MinFac();
 //        System.out.println(minFac.smallestFactorization(22));
 
-        GuessNumber375 guessNumber375 = new GuessNumber375();
-        System.out.println(guessNumber375.getMoneyAmount(4));
+//        GuessNumber375 guessNumber375 = new GuessNumber375();
+//        System.out.println(guessNumber375.getMoneyAmount(4));
+
+//        SelectColors75 selectColors75 = new SelectColors75();
+//        int[] nums = {0, 1, 2, 2, 2, 1, 1, 0};
+//        selectColors75.sortColors2(nums);
+
+        MergeSortedList21 mergeSortedList21 = new MergeSortedList21();
+        MergeSortedList21.ListNode listNode = new MergeSortedList21.ListNode(1);
+        MergeSortedList21.ListNode listNode2 = new MergeSortedList21.ListNode(2);
+        MergeSortedList21.ListNode listNode4 = new MergeSortedList21.ListNode(4);
+        MergeSortedList21.ListNode listNode5 = new MergeSortedList21.ListNode(5);
+        listNode.next = listNode2;
+        listNode2.next = listNode4;
+
+        mergeSortedList21.mergeTwoLists(listNode, listNode5);
 
     }
 

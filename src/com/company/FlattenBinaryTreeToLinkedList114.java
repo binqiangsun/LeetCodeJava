@@ -24,6 +24,11 @@ public class FlattenBinaryTreeToLinkedList114 {
 
     }
 
+    /**
+     * no use
+     * @param root
+     * @return
+     */
     private TreeNode flattenNode(TreeNode root) {
 
         if (root == null || (root.left == null && root.right == null)) {
