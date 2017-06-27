@@ -4,6 +4,7 @@ import java.util.Stack;
 
 /**
  * Created by sunbinqiang on 12/05/2017.
+ * stack 结构
  */
 public class ValidParentheses {
 

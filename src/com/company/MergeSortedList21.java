@@ -2,6 +2,9 @@ package com.company;
 
 /**
  * Created by sunbinqiang on 23/06/2017.
+ * 两种解决方法：
+ * 1， 遍历获取较小的值；
+ * 2， 递归的方法
  */
 public class MergeSortedList21 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

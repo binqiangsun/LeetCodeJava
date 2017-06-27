@@ -2,6 +2,7 @@ package com.company;
 
 /**
  * Created by sunbinqiang on 19/06/2017.
+ * 未完待续
  */
 public class TaskSchedule621 {
     public int leastInterval(char[] tasks, int n) {

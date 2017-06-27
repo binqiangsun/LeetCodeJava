@@ -3,6 +3,9 @@ package com.company;
 
 /**
  * Created by sunbinqiang on 08/06/2017.
+ * 链表反转
+ * 1, 整串反转
+ * 2， 反转i， j之间的一段链表
  */
 public class ReverseLinkedListtwo92 {
     /**

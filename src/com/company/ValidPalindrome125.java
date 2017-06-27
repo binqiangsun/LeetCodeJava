@@ -2,6 +2,7 @@ package com.company;
 
 /**
  * Created by sunbinqiang on 12/05/2017.
+ * 判断回文字符串，不区分大小写， 只判断数字和字母
  */
 public class ValidPalindrome125 {
 
