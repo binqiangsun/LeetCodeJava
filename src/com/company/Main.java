@@ -53,18 +53,28 @@ public class Main {
 //        selectColors75.sortColors2(nums);
 
         MergeSortedList21 mergeSortedList21 = new MergeSortedList21();
-        MergeSortedList21.ListNode listNode = new MergeSortedList21.ListNode(1);
-        MergeSortedList21.ListNode listNode2 = new MergeSortedList21.ListNode(2);
-        MergeSortedList21.ListNode listNode4 = new MergeSortedList21.ListNode(4);
-        MergeSortedList21.ListNode listNode5 = new MergeSortedList21.ListNode(5);
+        ListNode listNode = new ListNode(1);
+        ListNode listNode2 = new ListNode(2);
+        ListNode listNode4 = new ListNode(4);
+        ListNode listNode5 = new ListNode(5);
         listNode.next = listNode2;
         listNode2.next = listNode4;
 
-        mergeSortedList21.mergeTwoLists(listNode, listNode5);
+//        mergeSortedList21.mergeTwoLists(listNode, listNode5);
+
+//        ListNode res = mergeSortedList21.mergeLists(listNode, listNode5);
+        MergeKSortedList23 mergeKSortedList23 = new MergeKSortedList23();
+        ListNode[] listNodes = {listNode, listNode5};
+        ListNode res = mergeKSortedList23.mergeKLists(listNodes);
+
+        while (res != null) {
+            System.out.println(res.val);
+            res = res.next;
+        }
 
     }
 
-    private static void printList(ReverseLinkedListtwo92.ListNode listNode) {
+    private static void printList(ListNode listNode) {
         while (listNode != null) {
             System.out.println(listNode.val);
             listNode = listNode.next;

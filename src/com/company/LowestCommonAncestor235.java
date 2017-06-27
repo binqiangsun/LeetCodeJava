@@ -15,15 +15,4 @@ public class LowestCommonAncestor235 {
     }
 
 
-    //      Definition for a binary tree node.
-    private class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
 }

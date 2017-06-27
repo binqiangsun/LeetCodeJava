@@ -1,6 +1,5 @@
 package com.company;
 
-import java.util.List;
 
 /**
  * Created by sunbinqiang on 08/06/2017.
@@ -76,12 +75,4 @@ public class ReverseLinkedListtwo92 {
         end.next = prtStart;
     }
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 }
