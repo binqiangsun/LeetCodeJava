@@ -8,6 +8,8 @@ import java.util.PriorityQueue;
  * Created by sunbinqiang on 26/06/2017.
  * PriorityQueue  小根堆算法， 获取最小值 时间复杂度为 O(N*K*LogK)
  *
+ * 归并算法
+ *
  */
 public class MergeKSortedList23 {
     public ListNode mergeKLists(ListNode[] lists) {
