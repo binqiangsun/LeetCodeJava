@@ -10,20 +10,7 @@ import java.util.Stack;
  */
 public class AddOneRowToTree {
     // Definition for a binary tree node.
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        public TreeNode(int x) {
-            val = x;
-        }
-    }
-
     public TreeNode addOneRow(TreeNode root, int v, int d) {
-
-
-
         Queue<TreeNode> pres = getNodeByDepth(root, d - 1);
         if (pres == null || pres.isEmpty()) {
             TreeNode newLeft = new TreeNode(v);
