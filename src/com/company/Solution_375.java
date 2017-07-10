@@ -2,8 +2,9 @@ package com.company;
 
 /**
  * Created by sunbinqiang on 20/06/2017.
+ * 已排序的数组， 最多猜几次
  */
-public class GuessNumber375 {
+public class Solution_375 {
     public int getMoneyAmount(int n) {
         return getMaxAmount(0, 0, n+1);
     }

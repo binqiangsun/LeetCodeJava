@@ -2,8 +2,9 @@ package com.company;
 
 /**
  * Created by sunbinqiang on 21/06/2017.
+ * 将二叉搜索树转化为链表形式
  */
-public class FlattenBinaryTreeToLinkedList114 {
+public class Solution_114 {
 
     public void flatten(TreeNode root) {
 

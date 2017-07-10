@@ -1,9 +1,12 @@
 package com.company;
 
+import com.company.weaklyContest40.Solution_639;
+import com.company.weaklyContest40.Solution_640;
+
 public class Main {
     public static void main(String[] args) {
         //test code
-//        FindLargestValue515.test();
+//        Solution_515.test();
 //
 //        Solution_207.test();
 //
@@ -11,6 +14,8 @@ public class Main {
 //
 //        DynamicProgramming.test(1000);
 
-        Solution_300.test();
+//        Solution_300.test();
+//        Solution_639.test();
+        Solution_640.test();
     }
 }

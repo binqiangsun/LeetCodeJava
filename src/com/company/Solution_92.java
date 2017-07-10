@@ -7,7 +7,7 @@ package com.company;
  * 1, 整串反转
  * 2， 反转i， j之间的一段链表
  */
-public class ReverseLinkedListtwo92 {
+public class Solution_92 {
     /**
      * Definition for singly-linked list.
      * public class ListNode {

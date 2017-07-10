@@ -7,8 +7,10 @@ import java.util.Queue;
 
 /**
  * Created by sunbinqiang on 29/06/2017.
+ * 二叉树，寻找最大值
+ * BFS
  */
-public class FindLargestValue515 {
+public class Solution_515 {
     public List<Integer> largestValues(TreeNode root) {
 
         List<Integer> result = new ArrayList<>();
@@ -39,7 +41,7 @@ public class FindLargestValue515 {
 
 
     public static void test() {
-        FindLargestValue515 findLargestValue515 = new FindLargestValue515();
+        Solution_515 findLargestValue515 = new Solution_515();
         TreeNode root = new TreeNode(1);
         TreeNode left = new TreeNode(3);
         TreeNode right = new TreeNode(2);

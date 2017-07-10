@@ -6,12 +6,14 @@ import java.util.PriorityQueue;
 
 /**
  * Created by sunbinqiang on 26/06/2017.
+ * 合并K个有序的链表
+ *
  * PriorityQueue  小根堆算法， 获取最小值 时间复杂度为 O(N*K*LogK)
  *
  * 归并算法
  *
  */
-public class MergeKSortedList23 {
+public class Solution_23 {
     public ListNode mergeKLists(ListNode[] lists) {
 
         PriorityQueue<ListNode> priorityQueue = new PriorityQueue<>(new Comparator<ListNode>() {

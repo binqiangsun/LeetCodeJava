@@ -2,11 +2,13 @@ package com.company;
 
 /**
  * Created by sunbinqiang on 23/06/2017.
+ * 合并两个有序链表
+ *
  * 两种解决方法：
  * 1， 遍历获取较小的值；
  * 2， 递归的方法
  */
-public class MergeSortedList21 {
+public class Solution_21 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null) return l2;
         if (l2 == null) return l1;

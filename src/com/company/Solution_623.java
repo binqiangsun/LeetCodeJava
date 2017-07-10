@@ -7,8 +7,9 @@ import java.util.Stack;
 
 /**
  * Created by sunbinqiang on 18/06/2017.
+ * 二叉树在指定深度增加一行
  */
-public class AddOneRowToTree {
+public class Solution_623 {
     // Definition for a binary tree node.
     public TreeNode addOneRow(TreeNode root, int v, int d) {
         Queue<TreeNode> pres = getNodeByDepth(root, d - 1);

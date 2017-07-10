@@ -13,7 +13,7 @@ public class MinFac {
         if (a == 1) {
             return 1;
         }
-        if (a > Integer.MAX_VALUE || a < 1) {
+        if (a < 1) {
             return 0;
         }
         Stack<Integer> resList = new Stack<>();

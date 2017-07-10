@@ -5,8 +5,11 @@ import java.util.List;
 
 /**
  * Created by sunbinqiang on 28/06/2017.
+ * 利用左右括号合成正确的表达式
+ * 递归
+ * 左右括号的条件
  */
-public class GenerateParentheses22 {
+public class Solution_22 {
 
     private List<String> result;
 
@@ -35,11 +38,8 @@ public class GenerateParentheses22 {
         }
     }
 
-
-    public static void main(String[] args) {
-        GenerateParentheses22 generateParentheses22 = new GenerateParentheses22();
+    public static void test() {
+        Solution_22 generateParentheses22 = new Solution_22();
         System.out.println(generateParentheses22.generateParenthesis(3));
     }
-
-
 }

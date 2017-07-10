@@ -4,7 +4,7 @@ package com.company;
  * Created by sunbinqiang on 14/06/2017.
  * 判断是否二叉搜索树
  */
-public class BinarySearchTree98 {
+public class Solution_98 {
 
 
     long pre = Long.MIN_VALUE;
