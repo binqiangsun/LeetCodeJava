@@ -5,6 +5,7 @@ import java.util.Queue;
 
 /**
  * Created by sunbinqiang on 09/07/2017.
+ * 字符串操作， 利用队列存储值的字符
  */
 public class Solution_640 {
 

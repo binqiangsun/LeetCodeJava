@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.weaklyContest40.Solution_638;
 import com.company.weaklyContest40.Solution_639;
 import com.company.weaklyContest40.Solution_640;
 
@@ -16,6 +17,7 @@ public class Main {
 
 //        Solution_300.test();
 //        Solution_639.test();
-        Solution_640.test();
+//        Solution_640.test();
+        Solution_638.test();
     }
 }
