@@ -1,4 +1,6 @@
-package com.company;
+package com.company.tree;
+
+import com.company.TreeNode;
 
 /**
  * Created by sunbinqiang on 16/06/2017.

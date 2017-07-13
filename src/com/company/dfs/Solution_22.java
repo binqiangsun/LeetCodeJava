@@ -1,4 +1,4 @@
-package com.company;
+package com.company.dfs;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,6 +6,7 @@ import java.util.List;
 /**
  * Created by sunbinqiang on 28/06/2017.
  * 利用左右括号合成正确的表达式
+ * DFS
  * 递归
  * 左右括号的条件
  */
