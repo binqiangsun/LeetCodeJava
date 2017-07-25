@@ -25,7 +25,7 @@ public class Solution_132 {
         for (int i = 1; i < length; i ++) {
             int minSub = i;
             for (int j = 0; j < i; j ++) {
-                //i-1 < j + 1 || pali[j+1][i-1] 这个表达式代表要么i-1， j+1 只有一个字符或者没有字符， 或者她们是回文字符串
+                //i-1 < j + 1 || pali[j+1][i-1] 这个表达式代表要么i-1， j+1 只有一个字符或者没有字符， 或者[j+1][i-1]是回文字符串
                 if (s.charAt(i) == s.charAt(j) && (i-1 <= j + 1 || pali[j+1][i-1])) {
                     pali[j][i] = true;
                     if (j == 0) {
@@ -57,7 +57,8 @@ public class Solution_132 {
 
     public static void test() {
         Solution_132 solution_132 = new Solution_132();
-        System.out.println(solution_132.minCut("aaba"));
+        System.out.println(solution_132.minCut("aba"));
     }
+
 
 }
