@@ -1,17 +1,11 @@
 package com.company;
 
-import com.company.contest38.Solution_628;
-import com.company.dfs.Solution_576;
-import com.company.dp.Solution_132;
-import com.company.dp.Solution_3;
-import com.company.weaklyContest40.Solution_638;
-import com.company.weaklyContest40.Solution_639;
-import com.company.weaklyContest40.Solution_640;
-import com.company.weaklyContest41.Solution_643;
-import com.company.weaklyContest41.Solution_644;
-import com.company.weaklyContest42.Solution_645;
-import com.company.weaklyContest42.Solution_646;
-import com.company.weaklyContest42.Solution_647;
+import com.company.contest45.Solution3;
+import com.company.contest45.Solution4;
+import com.company.weaklyContest43.Solution_652;
+
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class Main {
     public static void main(String[] args) {
@@ -37,6 +31,12 @@ public class Main {
 
 //        Solution_645.test();
 //        Solution_646.test();
-        Solution_647.test();
+//        Solution_647.test();
+//        Solution_651.test();
+//        Solution_652.test();
+//        Queue<TreeNode> queue = new PriorityQueue<>();
+//
+//        queue.add(null);
+        Solution4.test();
     }
 }
