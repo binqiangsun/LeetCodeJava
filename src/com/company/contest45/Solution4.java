@@ -2,8 +2,6 @@ package com.company.contest45;
 
 import com.company.weaklyContest40.Solution_640;
 
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by sunbinqiang on 13/08/2017.

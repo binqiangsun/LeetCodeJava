@@ -1,12 +1,5 @@
 package com.company;
 
-import com.company.contest45.Solution3;
-import com.company.contest45.Solution4;
-import com.company.weaklyContest43.Solution_652;
-
-import java.util.PriorityQueue;
-import java.util.Queue;
-
 public class Main {
     public static void main(String[] args) {
         //test code
@@ -37,6 +30,7 @@ public class Main {
 //        Queue<TreeNode> queue = new PriorityQueue<>();
 //
 //        queue.add(null);
-        Solution4.test();
+//        Solution4.test();
+        Solution_542.test();
     }
 }
