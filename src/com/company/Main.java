@@ -1,5 +1,8 @@
 package com.company;
 
+import com.company.contest46.Solution_2;
+import com.company.dfs.Solution_491;
+
 public class Main {
     public static void main(String[] args) {
         //test code
@@ -31,6 +34,8 @@ public class Main {
 //
 //        queue.add(null);
 //        Solution4.test();
-        Solution_542.test();
+//        Solution_542.test();
+//        Solution_2.test();
+        Solution_491.test();
     }
 }
