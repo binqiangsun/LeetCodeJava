@@ -35,6 +35,7 @@ public class Main {
 //        int[] nums = {4, 2, 1};
 //        List<Integer> list = Arrays.asList();
 //        System.out.println(list.size());
-        com.company.contest47.Solution_2.test();
+//        com.company.contest47.Solution_2.test();
+        Solution_670.test();
     }
 }
