@@ -1,5 +1,8 @@
 package com.company;
 
+import com.company.Interview.DynamicProxyTest;
+import com.company.Interview.ThreadTest;
+import com.company.Interview.ThreadTestAnswer;
 import com.company.contest46.Solution_2;
 import com.company.dfs.Solution_491;
 
@@ -8,7 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         //test code
 //        Solution_515.test();
 //        Solution_207.test();
@@ -36,6 +39,12 @@ public class Main {
 //        List<Integer> list = Arrays.asList();
 //        System.out.println(list.size());
 //        com.company.contest47.Solution_2.test();
-        Solution_670.test();
+//        Solution_670.test();
+//        ThreadTest threadTest = new ThreadTest();
+//        threadTest.test();
+//        DynamicProxyTest proxyTest = new DynamicProxyTest();
+//        proxyTest.test();
+        ThreadTestAnswer threadTestAnswer = new ThreadTestAnswer();
+        threadTestAnswer.test();
     }
 }

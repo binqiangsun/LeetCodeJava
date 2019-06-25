@@ -2,6 +2,8 @@ package com.company.contest38;
 
 import com.company.heap.MyHeap;
 
+import java.util.PriorityQueue;
+
 /**
  * Created by sunbinqiang on 22/07/2017.
  */

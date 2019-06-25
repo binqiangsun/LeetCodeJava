@@ -1,5 +1,7 @@
 package com.company.weaklyContest41;
 
+import sun.misc.LRUCache;
+
 /**
  * Created by sunbinqiang on 16/07/2017.
  */
