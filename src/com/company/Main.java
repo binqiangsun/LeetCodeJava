@@ -1,6 +1,7 @@
 package com.company;
 
 import com.company.Interview.DynamicProxyTest;
+import com.company.Interview.SwitchDemo;
 import com.company.Interview.ThreadTest;
 import com.company.Interview.ThreadTestAnswer;
 import com.company.contest46.Solution_2;
@@ -44,7 +45,10 @@ public class Main {
 //        threadTest.test();
 //        DynamicProxyTest proxyTest = new DynamicProxyTest();
 //        proxyTest.test();
-        ThreadTestAnswer threadTestAnswer = new ThreadTestAnswer();
-        threadTestAnswer.test();
+//        ThreadTestAnswer threadTestAnswer = new ThreadTestAnswer();
+//        threadTestAnswer.test();
+
+        SwitchDemo demo = new SwitchDemo();
+        demo.switch_test(4);
     }
 }
