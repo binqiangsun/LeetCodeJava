@@ -1,15 +1,6 @@
 package com.company;
 
-import com.company.Interview.DynamicProxyTest;
-import com.company.Interview.SwitchDemo;
-import com.company.Interview.ThreadTest;
-import com.company.Interview.ThreadTestAnswer;
-import com.company.contest46.Solution_2;
-import com.company.dfs.Solution_491;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import com.company.Interview.thread.YieldDemo;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
@@ -48,7 +39,24 @@ public class Main {
 //        ThreadTestAnswer threadTestAnswer = new ThreadTestAnswer();
 //        threadTestAnswer.test();
 
-        SwitchDemo demo = new SwitchDemo();
-        demo.switch_test(4);
+//        SwitchDemo demo = new SwitchDemo();
+//        demo.switch_test(4);
+
+//        LRUCache cache = new LRUCache( 2 /* 缓存容量 */ );
+//
+//        cache.put(1, 1);
+//        cache.put(2, 2);
+//        System.out.println(cache.get(1));       // 返回  1
+//        cache.put(3, 3);    // 该操作会使得密钥 2 作废
+//        System.out.println(cache.get(2));       // 返回 -1 (未找到)
+//        cache.put(4, 4);    // 该操作会使得密钥 1 作废
+//        System.out.println(cache.get(1));       // 返回 -1 (未找到)
+//        System.out.println(cache.get(3));       // 返回  3
+//        System.out.println(cache.get(4));       // 返回  4
+
+//        ThreadTest2.main();
+//        ThreadDemo.main();
+//        WaitDemo.main();
+        YieldDemo.main();
     }
 }
